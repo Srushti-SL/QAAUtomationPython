@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6700bce-760e-47a7-a4c0-b59502f502a6" name="Changes" comment="intial commit">
-      <change afterPath="$PROJECT_DIR$/DAY2/py_s2a1_adding_two_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY2/py_s2a2_compare_score_using_if_else.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/py_s3a1_even_or_odd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/py_s3a2_find_duplicate_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/py_s3a3_calculate_string_length.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.py_s2a1_adding_two_numbers.executor": "Run",
+    "Python.py_s2a2_compare_score_using_if_else.executor": "Run",
+    "Python.py_s3a1_even_or_odd.executor": "Run",
+    "Python.py_s3a2_find_duplicate_record.executor": "Run",
+    "Python.py_s3a3_calculate_string_length.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -76,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747048174488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="intial commit">
+      <option name="closed" value="true" />
+      <created>1747120384872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747120384872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
