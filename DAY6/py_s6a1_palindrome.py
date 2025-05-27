@@ -18,7 +18,7 @@ is_palindrome = True
 while i <= j:
     print(word[i])
     print(word[j])
-    print("-----------------------")
+    print("-------------------------")
     if word[i] != word[j]:
         is_palindrome = False
         break
