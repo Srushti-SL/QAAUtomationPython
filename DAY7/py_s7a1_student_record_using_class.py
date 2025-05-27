@@ -13,23 +13,18 @@
 # Create multiple student objects.
 # Display each student’s information using a method.
 
-
 class Student:
-    def __init__(self, name, age, grade, roll_no):
-        self.name = name
-        self.age = age
-        self.grade = grade
-        self.roll_no = roll_no
-
     def display(self):
-        print(f"Student name: {self.name}\n Student age: {self.age}\n Student grade: {self.grade}\n Student roll number: {self.roll_no}\n")
+        print(f"Student name: {self.name}")
+        print(f"Student age: {self.age}")
+        print(f"Student grade: {self.grade}")
+        print(f"Student roll number: {self.roll_no}\n")
 
-
-#list of student
+# List of students
 students = []
+
 print("-- Enter Student Details --")
-student_no = input("How many students do you want to enter? ")
-num_students = int(student_no)
+num_students = int(input("How many students do you want to enter? :"))
 
 for i in range(num_students):
     print(f"\nEntering details for student {i+1}:")
@@ -38,11 +33,15 @@ for i in range(num_students):
     grade = input("Enter Grade: ")
     roll_no = input("Enter Roll Number: ")
 
-    # Create and store the student object
-    student = Student(name, age, grade, roll_no)
+    student = Student()
+    student.name = name
+    student.age = age
+    student.grade = grade
+    student.roll_no = roll_no
+
     students.append(student)
 
-# Display all students
+# Display
 print("\n-- Student Records --")
 for student in students:
     student.display()
