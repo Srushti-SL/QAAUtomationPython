@@ -69,9 +69,9 @@ class LibrarySystem:
 
 if __name__ == "__main__":
     system = LibrarySystem()
-    system.add_book("Python Programming", "John Doe", "12345", 3)
-    system.register_user("Alice", "U001", "student")
+    system.add_book("Python Programming", "ABC", "12345", 3)
+    system.register_user("DEF", "U1", "student")
 
-    system.borrow_book("U001", "12345", get_current_date())
+    system.borrow_book("U1", "12345", get_current_date())
     system.list_books()
-    system.return_book("U001", "12345")
+    system.return_book("U1", "12345")
